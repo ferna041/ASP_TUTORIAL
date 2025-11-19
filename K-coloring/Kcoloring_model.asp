@@ -10,5 +10,5 @@ color(blue).
 % nodos adyacentes no pueden tener el mismo color
 :- edge(X,Y), color_of(X,C), color_of(Y,C).
 
-% Mostrar solo las asignaciones de color
+
 #show color_of/2.
