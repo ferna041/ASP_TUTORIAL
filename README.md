@@ -15,10 +15,11 @@
 
 ### N-queens
 
-- python .\run_clingo.py .\N-Queens\NQueens_model.asp .\N-Queens\NQueens_4.asp
-- python .\run_clingo.py .\N-Queens\NQueens_model.asp .\N-Queens\NQueens_8.asp
+- python .\run_clingo.py N-Queens\NQueens_model.asp N-Queens\NQueens_4.asp
+- python .\run_clingo.py N-Queens\NQueens_model.asp N-Queens\NQueens_8.asp
 
 ### QBF
 
 
 - Falta añadir este ejemplo, Quantified Boolean Formula. Es la versión “cuantificada” de SAT: en lugar de solo una fórmula booleana φ(x1,...,xn) sin cuantificadores, una QBF tiene cuantificadores delante por ejemplo ∃x1 ∀y1 ∃x2 φ(x1,x2,y1,...).
+
